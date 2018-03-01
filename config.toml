@@ -1,0 +1,31 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Mulenga Bowa"
+theme="osprey"
+
+[params]
+    author = "Mulenga Bowa"
+    description = "Full-stack web developer and Python enthusiast based in LYA, Zambia."
+    tagline = "Full-stack web developer 💙"
+    logoBig = "/images/mul-logo.png"
+    logoSmall = "/images/mul-logo.png"
+    ajaxFormspree = true
+    github = "mul53"
+    copyright = true
+    credit = true
+
+
+[[menu.main]]
+    name = "About"
+    url = "/#about"
+    weight = 1
+
+[[menu.main]]
+    name = "Work"
+    url = "/#work"
+    weight = 2
+
+[[menu.main]]
+    name = "Contact"
+    url = "/#contact"
+    weight = 3
